@@ -25,7 +25,7 @@ pipeline {
         }
     }
     triggers {
-        cron('H 0 * * 7') // Runs every Sunday at midnight
+        cron('30 * * * *') // Runs every Sunday at midnight
     }
     post {
         always {
